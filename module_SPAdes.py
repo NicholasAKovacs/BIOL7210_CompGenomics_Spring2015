@@ -6,6 +6,7 @@ import subprocess
 
 # Generates hash of trimmed reads and invokes either SE or PE SPAdes de novo assembly.
 # Output is a directory containing the contig and scaffold files in FASTA format.
+# Usage: module_SPAdes.py </path/to/inputfiles/> </path/to/output directory/>
 
 def wranglePairedEnds(paths):
     for file in paths:
