@@ -2,29 +2,23 @@
 Jill Walker, Xin Wu, Diana Williams, Anuj Gupta, Ke Qi, Nicholas Kovacs, Sung Im, Taylor Griswold, Yuanbo Wang
 
 ## Requisite software
+**Prinseq** -- [PRINSEQ](www.prinseq.sourceforge.net)
 
----
+**ABySS** -- [BC Cancer Agency](www.bcgsc.ca/platform/bioinfo/software/abyss)
 
-Prinseq (raw read trimming) -- [PRINSEQ](www.prinseq.sourceforge.net)
+**Fastqc** -- [Babraham Bioinformatics](www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 
-ABySS (de novo assembly) -- [BC Cancer Agency](www.bcgsc.ca/platform/bioinfo/software/abyss)
+**CISA** -- [Contig Integrator for Sequence Assembly](sb.nhri.org.tw/CISA/en/CISA)
 
-Fastqc (raw read metrics) -- [Babraham Bioinformatics](www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+**Edena** -- [Genomic Research Laboratory - University of Geneva Hospitals](www.genomic.ch/edena.php)
 
-CISA (contig integration) -- [Contig Integrator for Sequence Assembly](sb.nhri.org.tw/CISA/en/CISA)
+**SPAdes** -- [St. Petersburg Academic Univerity of the Russian Academy of Sciences](bioinf.spbau.ru/spades)
 
-Edena (de novo assembly) -- [Genomic Research Laboratory - University of Geneva Hospitals](www.genomic.ch/edena.php)
+**QUAST** -- [St. Petersburg Academic Univerity of the Russian Academy of Sciences](bioinf.spbau.ru/quast)
 
-SPAdes (de novo assembly) -- [St. Petersburg Academic Univerity of the Russian Academy of Sciences](bioinf.spbau.ru/spades)
-
-QUAST (assembly metrics) -- [St. Petersburg Academic Univerity of the Russian Academy of Sciences](bioinf.spbau.ru/quast)
-
-SMALT (reference assembly) -- [Wellcome Trust Sanger Institute](https://www.sanger.ac.uk/resources/software/smalt)
+**SMALT** -- [Wellcome Trust Sanger Institute](https://www.sanger.ac.uk/resources/software/smalt)
 
 ## Scripts
-
----
-
 ### module_wranglePairedEnds.py
 _Returns a dictionary of 'key : value' pairs._
 
