@@ -28,32 +28,32 @@ _Returns a dictionary of 'key : value' pairs._
 _Generates hash of trimmed reads and invokes either SE or PE ABySS de novo assembly._
 _Outputs contig file(s) in FASTA format in user-specified directory._
 
-**Usage:** module_ABySS.py </path/to/inputfiles/> </path/to/output directory/>
+**Usage:** module_ABySS.py \</path/to/inputfiles/\> \</path/to/output directory/\>
 
 ### module_Edena.py 
 _Generates hash of trimmed reads and invokes either SE or PE Edena de novo assembly._
 _Output is a directory containing the contig and scaffold files in FASTA format._
 
-**Usage:** module_Edena.py </path/to/inputfiles/> </path/to/output directory/>
+**Usage:** module_Edena.py \</path/to/inputfiles/\> \</path/to/output directory/\>
 
 ### module_SPAdes.py
 _Generates hash of trimmed reads and invokes either SE or PE SPAdes de novo assembly._
 _Output is a directory containing the contig and scaffold files in FASTA format._
 
-**Usage:** module_SPAdes.py </path/to/inputfiles/> </path/to/output directory/>
+**Usage:** module_SPAdes.py \</path/to/inputfiles/\> \</path/to/output directory/\>
 
 ### module_Prinseq.py
 _User-friendly script to run prinseq with specified parameters._
 _variable outPath (the output directory) is currently hard coded._
 
-**Usage for unpaired read:** module_Prinseq.py -s </path/to/read> -l <left-trim no.> -r <right-trim no.>
+**Usage for unpaired read:** module_Prinseq.py -s \</path/to/read\> -l \<left-trim no.\> -r \<right-trim no.\>
 
-**Usage for paired-end read:** module_Prinseq.py -p </path/to/read1> </path/to/read2> -l <left-trim no.> -r <right-trim no.>
+**Usage for paired-end read:** module_Prinseq.py -p \</path/to/read1\> \</path/to/read2\> -l \<left-trim no.\> -r \<right-trim no.\>
 
 ### module_fastQC.py
 _Invokes fastqc on raw read file(s)_
 
-**Usage:** module_fastQC.py </path/to/input files/> </path/to/output directory/>
+**Usage:** module_fastQC.py \</path/to/input files/\> \</path/to/output directory/\>
 
 ### module_Quast.py
 _Locates contig/scaffold FASTA files and invokes Quast to generate assembly metrics._
