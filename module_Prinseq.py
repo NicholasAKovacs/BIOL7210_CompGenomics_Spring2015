@@ -8,6 +8,8 @@ import glob
 
 # easyPrinseq.py
 # User-friendly script to run prinseq with specified parameters.
+# Usage SE: module_Prinseq.py -s </path/to/read> -l <left-trim no.> -r <right-trim no.>
+# Usage PE: module_Prinseq.py -p </path/to/read1> </path/to/read2> -l <left-trim no.> -r <right-trim no.>
 
 outPath = sys.argv[1]   #STDIN the output directory for the trimmed files
 
