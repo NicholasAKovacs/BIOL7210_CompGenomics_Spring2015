@@ -22,7 +22,7 @@ Jill Walker, Xin Wu, Diana Williams, Anuj Gupta, Ke Qi, Nicholas Kovacs, Sung Im
 ### module_wranglePairedEnds.py
 _Returns a dictionary of 'key : value' pairs._
 
-**Usage:** module_wranglePairedEnds.py </path/to/input files/>
+**Usage:** module_wranglePairedEnds.py \</path/to/input files/\>
 
 ### module_ABySS.py
 _Generates hash of trimmed reads and invokes either SE or PE ABySS de novo assembly._
