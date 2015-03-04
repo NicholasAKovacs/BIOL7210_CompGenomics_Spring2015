@@ -1,5 +1,5 @@
 # CompGenomics2015 -- Assembly Group
-Jill Walker, Xin Wu, Diana Williams, Anuj Gupta, Ke Qi, Nicholas Kovacs, Sung Im, Taylor Griswold, Yuanbo Wang
+Jill Walker, Xin Wu, Diana Williams, Anuj Gupta, Ke Qi, Nicholas Kovacs, Sung Im, Taylor Griswold, Yuanbo Wang, Bhanu Gandham, Maxine Harlemon
 
 ## Requisite software
 **Prinseq** -- [PRINSEQ](www.prinseq.sourceforge.net)
