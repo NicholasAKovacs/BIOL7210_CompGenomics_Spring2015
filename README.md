@@ -61,7 +61,7 @@ _Quast metrics files are generated in the respective assembly directories._
 
 **Usage:** See script for usage example
 
-### module_Compare.py
-_Takes in a report.tsv file and returns a dictionary containing all attributes as keys and their respective values._
+### module_QuastOut.py
+_Calculates scores for lists of quast evaluation results and outputs into tabular format.
 
 **Usage:** See script for usage example
