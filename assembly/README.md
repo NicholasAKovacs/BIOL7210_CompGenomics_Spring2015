@@ -2,21 +2,21 @@
 Jill Walker, Xin Wu, Diana Williams, Anuj Gupta, Ke Qi, Nicholas Kovacs, Sung Im, Taylor Griswold, Yuanbo Wang, Bhanu Gandham, Maxine Harlemon
 
 ## Requisite software
-**Prinseq** -- [PRINSEQ](www.prinseq.sourceforge.net)
+**Prinseq v.0.20.4** -- [PRINSEQ](www.prinseq.sourceforge.net)
 
-**ABySS** -- [BC Cancer Agency](www.bcgsc.ca/platform/bioinfo/software/abyss)
+**ABySS v.1.5.2** -- [BC Cancer Agency](www.bcgsc.ca/platform/bioinfo/software/abyss)
 
-**Fastqc** -- [Babraham Bioinformatics](www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+**Fastqc v.0.11.2** -- [Babraham Bioinformatics](www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 
-**CISA** -- [Contig Integrator for Sequence Assembly](sb.nhri.org.tw/CISA/en/CISA)
+**CISA v.1.3** -- [Contig Integrator for Sequence Assembly](sb.nhri.org.tw/CISA/en/CISA)
 
-**Edena** -- [Genomic Research Laboratory - University of Geneva Hospitals](www.genomic.ch/edena.php)
+**Edena v.3.131028** -- [Genomic Research Laboratory - University of Geneva Hospitals](www.genomic.ch/edena.php)
 
-**SPAdes** -- [St. Petersburg Academic Univerity of the Russian Academy of Sciences](bioinf.spbau.ru/spades)
+**SPAdes v.3.5.0** -- [St. Petersburg Academic Univerity of the Russian Academy of Sciences](bioinf.spbau.ru/spades)
 
-**QUAST** -- [St. Petersburg Academic Univerity of the Russian Academy of Sciences](bioinf.spbau.ru/quast)
+**QUAST v.2.3** -- [St. Petersburg Academic Univerity of the Russian Academy of Sciences](bioinf.spbau.ru/quast)
 
-**SMALT** -- [Wellcome Trust Sanger Institute](https://www.sanger.ac.uk/resources/software/smalt)
+**SMALT v.0.7.5** -- [Wellcome Trust Sanger Institute](https://www.sanger.ac.uk/resources/software/smalt)
 
 ## Scripts
 ### module_wranglePairedEnds.py
