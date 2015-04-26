@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel = "stylesheet" href = "css/styles.css">
+	<link rel = "stylesheet" href = "css/styling.css">
+	<title>Strains | Genome Typing</title>
+
+	<div id="banner" align="center">
+		<a href="./Home.html"><span><img src="./images/LogoFinal5.jpg" alt="Logo" title="Genome Typing Tool" width="650" style="padding-right: 2em"></a></span>
+	</div>
+
+	<div class="container">
+	<div id="cssmenu">
+	<ul>
+	<li><a href="./Home.html"><span>Home</span></a></li>
+	<li><a href="./About.html"><span>About</span></a></li>
+	<li><a href="./Typer.html"><span>Typer</span></a><li>
+	<li><a href="./Browser.html"><span>Browser</span></a></li>
+	<li><a href="./Blast.html"><span>Blast</span></a></li>
+	<li><a href="./Downloads.html"><span>Downloads</span></a></li>
+	</ul>
+	</div>
+	</div>
+
+</head>
+
+<body><HR>
+<P>
+Enter sequence below in <a href="docs/fastq.html">FASTQ</a>  format:
+<BR>
+<textarea name="SEQUENCE" rows=7 cols=60></textarea>
+<BR>
+Or load your sequence file from disk:
+<INPUT TYPE="file" NAME="SEQFILE">
+<P>
+<INPUT TYPE="button" VALUE="Clear sequence" onClick="MainBlastForm.SEQUENCE.value='';MainBlastForm.QUERY_FROM.value='';MainBlastForm.QUERY_TO.value='';MainBlastForm.SEQUENCE.focus();">
+<INPUT TYPE="submit" VALUE="Search">
+</BODY>
+</html>
+
+</body>
+
+<HR>
+
+<footer>
+<div id="footer" align="center" style="padding-top: 1em">
+@Georgia Institute of Technology 2015
+</div>
+</footer>
