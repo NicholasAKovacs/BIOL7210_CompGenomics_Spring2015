@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel = "stylesheet" href = "css/styles.css">
+	<link rel = "stylesheet" href = "css/styling.css">
+	<title>Strains | Genome Typing</title>
+
+	<div id="banner" align="center">
+		<a href="./Home.html"><span><img src="./images/LogoFinal5.jpg" alt="Logo" title="Genome Typing Tool" width="650" style="padding-right: 2em"></a></span>
+	</div>
+
+	<div class="container">
+	<div id="cssmenu">
+	<ul>
+	<li><a href="./Home.html"><span>Home</span></a></li>
+	<li><a href="./About.html"><span>About</span></a></li>
+	<li><a href="./Typer.html"><span>Typer</span></a><li>
+	<li><a href="./Browser.html"><span>Browser</span></a></li>
+	<li><a href="./Blast.html"><span>Blast</span></a></li>
+	<li><a href="./Downloads.html"><span>Downloads</span></a></li>
+	</ul>
+	</div>
+	</div>
+</head>
+
+<body>
+<p>
+<form action="blast.php" method="POST" name="MainBlastForm" enctype="multipart/form-data">
+    <hr>
+    <p>
+    <b>Choose blast program to use and database to search:</b>
+    <br>
+    <p>
+    <a href="docs/blast_program.html">Program:</a>
+        <select name = "PROGRAM">
+            <option> blastn
+            <!--
+            <option> blastp
+            <option> blastx
+            <option> tblastn
+            <option> tblastx
+            -->
+        </select>
+        &nbsp;&nbsp;
+    <a href="docs/blast_databases.html">Database:</a>
+        <select name = "DATALIB">
+            <option value="complete.fasta"> All Databases
+	        <!---
+	        <option value="test_na_db"> test_na_db
+            <option value="Neisseria meningitidis"> Neisseria meningitidis
+            <option value="Haemophilus influenzae"> Haemophilus influenzae
+            <option value="Haemophilus haemolyticus"> Haemophilus influenzae
+            <option value="complete_database"> Everything
+            --->
+	</select>
+
+    <p>
+    Enter sequence below in <a href="docs/fasta.html">FASTA</a> format:
+    <br>
+    <textarea name="SEQUENCE" rows="7" cols="60"></textarea>
+    <br>
+    Upload a sequence file:
+    <input type="file" name="SEQFILE">
+
+    <p>
+    <input type="button" value="Clear sequence" onClick="MainBlastForm.SEQUENCE.value=''; MainBlastForm.QUERY_FROM.value=''; MainBlastForm.QUERY_TO.value=''; MainBlastForm.SEQUENCE.focus();">
+    <input type="submit" value="BLAST IT!">
+    </p>
+</form>
+
+</body>
+<br><br>
+<hr>
+
+<footer>
+<div id="footer" align="center" style="padding-top: 1em">
+@Georgia Institute of Technology 2015
+</div>
+</footer>
